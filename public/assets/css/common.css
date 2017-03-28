@@ -1,0 +1,46 @@
+article,aside,canvas,details,figcaption,figure,
+header,footer,main,menu,nav,section,summary {
+	display: block;
+}
+
+@media screen and (max-width: 480px) {
+
+}
+img {
+    max-width : 100% ;
+    height : auto ;
+}
+iflame {
+    width : 100% ;
+}
+body {
+	-webkit-text-size-adjust: 100%;
+}
+
+/*ローディング画面*/
+
+#loading-bg {
+    /*display: none;*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #ffffff;
+    z-index: 1;
+}
+#loading {
+    /*display: none;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+/*基本ＣＳＳ*/
